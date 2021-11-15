@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "OldEnglish";
+    src: url("/font/OLDENGL.TTF")
+}
+
+
+body {
+    background-image: url("/pics/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 700px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+#school {
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-family: "OldEnglish";
+    text-shadow: 2px 2px 10px black;
+}
+
+#course {
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+#year {
+    color: rgb(238, 238, 238);
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-color: white;
+    border-spacing: 0;
+}
+
+.tg td {
+    background-color: #252525;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: #fdf6e3;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 15px 20px;
+    word-break: normal;
+}
+.tg th {
+    background-color: #993232;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: #fdf6e3;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 15px 20px;
+    word-break: normal;
+}
+.tg .tg-1wig {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+}
+.tg .tg-0lax {
+    text-align: center;
+    vertical-align: top;
+}
+footer {
+    color: rgb(182, 182, 182);
+    text-align: center;
+}
+
+iframe {
+    max-width: 700px;
+    margin: auto;
+    display:block;
+}
+
+@media screen and (max-width:700px) {
+    
+    footer {
+        background: red;
+    }
+}

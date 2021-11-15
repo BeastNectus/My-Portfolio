@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/project-style.css">
+    <link rel="shortcut icon" type="image" href="icon.png">
+    <title>JMC CITE SCHEDULE</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="/assets/css/project-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+     <br><br> 
+  <h1 id="school">JOSE MARIA COLLEGE OF DAVAO</h1>
+  <br>
+  <h5 id="course">BACHELOUR OF SCIENCE INFORMATION TECHNOLOGY</h5>
+  <br>
+  <h5 id="year">(3RD YEAR)</h5>
+  </h1>
+  <br><br>
+  <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax"><span style="font-weight:bold">Subject Code</span></th>
+        <th class="tg-1wig">Description</th>
+        <th class="tg-0lax"><span style="font-weight:bold">Schedule</span></th>
+        <th class="tg-0lax"><span style="font-weight:bold">Teacher</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax">IT Elect 3</td>
+        <td class="tg-0lax">IT Elective 3</td>
+        <td class="tg-0lax">MW<br>9:00-11:30</td>
+        <td class="tg-0lax">Aaron Jess Vergara</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">EDP 101</td>
+        <td class="tg-0lax">Event-Driven Programming</td>
+        <td class="tg-0lax">MW<br>12:30-2:00</td>
+        <td class="tg-0lax">John Ely Masculino</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">IM 101</td>
+        <td class="tg-0lax">Advance Database System</td>
+        <td class="tg-0lax">MW<br>2:00-4:30</td>
+        <td class="tg-0lax">Mark Sabili</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">SAD 101</td>
+        <td class="tg-0lax">System Analysis and Design</td>
+        <td class="tg-0lax">MW<br>4:30-6:00</td>
+        <td class="tg-0lax">Mark Van Buladaco</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">MAP 101</td>
+        <td class="tg-0lax">Mobile Application Development 1</td>
+        <td class="tg-0lax">TTh<br>8:00-10:30</td>
+        <td class="tg-0lax">Roniel Enumerables</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">SIA 101</td>
+        <td class="tg-0lax">System Integration and Architecture</td>
+        <td class="tg-0lax">TTh<br>1:00-3:30</td>
+        <td class="tg-0lax">Mark Sabili</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">IAS 101</td>
+        <td class="tg-0lax">Information Assurance and Security 1</td>
+        <td class="tg-0lax">TTh<br>3:30-5:00</td>
+        <td class="tg-0lax">Aaron Jess Vergara</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">SF 5</td>
+        <td class="tg-0lax">Student Formation 5</td>
+        <td class="tg-0lax">FRI<br>9:00-12:00</td>
+        <td class="tg-0lax">Mia Bajan</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">NET 102</td>
+        <td class="tg-0lax">Networking 2</td>
+        <td class="tg-0lax">SAT<br>4:00-6:30</td>
+        <td class="tg-0lax">Janette Claro</td>
+      </tr>
+    </tbody>
+    </table>
+    <br><br>
+    <footer>
+      <p>Author: John Charles Frederick S. Mamanao
+        <br><br>
+        For educational purpose only.
+      </p>
+    </footer>
+</body>
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+ </script>
+</html>
