@@ -1,11 +1,11 @@
 @font-face {
     font-family: "OldEnglish";
-    src: url("./font/OLDENGL.TTF");
+    src: url("OLDENGL.TTF");
 }
 
 
 body {
-    background-image: url("/pics/bg.jpg");
+    background-image: url("assets/img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
