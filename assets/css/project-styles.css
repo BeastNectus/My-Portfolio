@@ -148,7 +148,7 @@ nav ul li a span.rotate{
   font-weight: 500;
   font-family: 'Akronim', cursive;
 }
-#custom_btn {
+.custom_btn {
   font-family: 'Righteous', cursive;
   display: inline-block;
   background-color: rgb(54, 132, 132);
@@ -157,11 +157,11 @@ nav ul li a span.rotate{
   transition: .3s;
   text-decoration: none;
 }
-#custom_btn:hover {
+.custom_btn:hover {
   background-color: aqua;
   color: black;
 }
-#custom_title {
+.custom_title {
   font-family: 'Black Ops One', cursive;
   color: rgb(238, 238, 238);
   text-align: center;
