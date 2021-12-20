@@ -169,3 +169,7 @@ nav ul li a span.rotate{
   font-size: 100px;
   letter-spacing: 10px;
 }
+footer {
+    color: rgb(182, 182, 182);
+    text-align: center;
+}
