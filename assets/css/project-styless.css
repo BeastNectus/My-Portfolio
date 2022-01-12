@@ -13,11 +13,9 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-    background: url('/assets/img/covid.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-image: url("/assets/img/covid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .btn{
   position: absolute;
